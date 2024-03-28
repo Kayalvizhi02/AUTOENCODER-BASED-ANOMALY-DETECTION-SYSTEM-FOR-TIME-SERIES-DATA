@@ -1,59 +1,69 @@
-## Title of the Project
-Small description about the project like one below
-The integration of a chatbot within a hostel booking system, aimed at streamlining the reservation process for students and improving the overall user experience.
+## AUTOENCODER-BASED ANOMALY DETECTION SYSTEM FOR TIME SERIES DATA
+The detection of anomalies in time series data holds immense significance across various domains, including finance, cybersecurity, healthcare, and industrial operations. Anomaly detection plays a pivotal role in identifying unusual patterns or behaviors within sequential data, thereby enabling proactive decision-making, risk mitigation, and system optimization.
 
 ## About
-<!--Detailed Description about the project-->
-Tailored Chatbot for Hostel Booking System is a project designed to integrate a chatbot that leverages advanced natural language processing techniques to understand and respond to user queries to the hostel booking system. Traditional hostel booking processes are often time-consuming and involve manual searches and extensive communication with hostel staff. This project seeks to overcome these challenges by creating an easy-to-use chatbot interface that assists students in addressing inquiries.
+Detecting anomalies in time series data is crucial across domains like finance, cybersecurity, and healthcare. Autoencoder-based methods have emerged as powerful tools for this task. Autoencoders, neural networks capable of reconstructing input data, excel at capturing complex patterns within sequential data. By identifying instances that deviate significantly from learned patterns, they effectively detect anomalies based on reconstruction error. A threshold for anomaly detection is set using maximum mean absolute error (MAE) loss observed during training on normal data.
 
 ## Features
-<!--List the features of the project as shown below-->
-- Implements advance neural network method.
-- A framework based application for deployment purpose.
-- High scalability.
-- Less time complexity.
-- A specific scope of Chatbot response model, using json data format.
+-  Anomaly Detection
+- Preprocessing.
+- Real-time Processing
+- Adaptability
+-  Alerting Mechanism
+
 
 ## Requirements
-<!--List the requirements of the project as shown below-->
-* Operating System: Requires a 64-bit OS (Windows 10 or Ubuntu) for compatibility with deep learning frameworks.
-* Development Environment: Python 3.6 or later is necessary for coding the sign language detection system.
-* Deep Learning Frameworks: TensorFlow for model training, MediaPipe for hand gesture recognition.
-* Image Processing Libraries: OpenCV is essential for efficient image processing and real-time hand gesture recognition.
-* Version Control: Implementation of Git for collaborative development and effective code management.
-* IDE: Use of VSCode as the Integrated Development Environment for coding, debugging, and version control integration.
-* Additional Dependencies: Includes scikit-learn, TensorFlow (versions 2.4.1), TensorFlow GPU, OpenCV, and Mediapipe for deep learning tasks.
+
+ HARDWARE REQUIREMENTS
+✔ Intel Core i7
+✔ 8 GB RAM
+✔ SSD storage
+
+ SOFTWARE REQUIREMENTS
+✔ Python 3.8
+✔ Jupyter Notebook or Google Colab
+✔ Python Libraries
 
 ## System Architecture
-<!--Embed the system architecture diagram as shown below-->
 
-![Screenshot 2023-11-25 133637](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/a60c11f3-0a11-47fb-ac89-755d5f45c995)
+![Architecture drawio](https://github.com/Kayalvizhi02/AUTOENCODER-BASED-ANOMALY-DETECTION-SYSTEM-FOR-TIME-SERIES-DATA/assets/75413726/4c2c012b-60a3-4e26-a34a-d8775bd1fe35)
 
 
 ## Output
 
-<!--Embed the Output picture at respective places as shown below as shown below-->
-#### Output1 - Name of the output
+#### Output1 - Gold Bees Stock price of 2023 to 2024
 
-![Screenshot 2023-11-25 134037](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/8c2b6b5c-5ed2-4ec4-b18e-5b6625402c16)
+![image](https://github.com/Kayalvizhi02/AUTOENCODER-BASED-ANOMALY-DETECTION-SYSTEM-FOR-TIME-SERIES-DATA/assets/75413726/154ec3dc-dfb2-474a-bbf9-71b2c468cd06)
 
-#### Output2 - Name of the output
-![Screenshot 2023-11-25 134253](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/5e05c981-05ca-4aaa-aea2-d918dcf25cb7)
 
-Detection Accuracy: 96.7%
-Note: These metrics can be customized based on your actual performance evaluations.
+#### Output2 - Training loss VS Validation loss
+
+![image](https://github.com/Kayalvizhi02/AUTOENCODER-BASED-ANOMALY-DETECTION-SYSTEM-FOR-TIME-SERIES-DATA/assets/75413726/074a830b-3d8c-44ca-9d6c-be106109141f)
+
+
+#### Output3 - Test loss VS Threshold
+
+
+
+#### Output4 - Detected Anomalies from Gold Bees Stock price
+
+![image](https://github.com/Kayalvizhi02/AUTOENCODER-BASED-ANOMALY-DETECTION-SYSTEM-FOR-TIME-SERIES-DATA/assets/75413726/dcc09927-3fd4-461c-8ba2-0d350a9c5ab1)
+
+
+
 
 
 ## Results and Impact
-<!--Give the results and impact as shown below-->
-The Sign Language Detection System enhances accessibility for individuals with hearing and speech impairments, providing a valuable tool for inclusive communication. The project's integration of computer vision and deep learning showcases its potential for intuitive and interactive human-computer interaction.
 
-This project serves as a foundation for future developments in assistive technologies and contributes to creating a more inclusive and accessible digital environment.
+Designed with meticulous attention to addressing the shortcomings of traditional anomaly
+detection methods, this system boasts remarkable efficacy and versatility. Its ability to
+automatically learn and adapt to the inherent dynamics of the data enables it to detect subtle
+deviations and anomalies with high accuracy, even in the presence of noise and irregularities.
 
 ## Articles published / References
-1. N. S. Gupta, S. K. Rout, S. Barik, R. R. Kalangi, and B. Swampa, “Enhancing Heart Disease Prediction Accuracy Through Hybrid Machine Learning Methods ”, EAI Endorsed Trans IoT, vol. 10, Mar. 2024.
-2. A. A. BIN ZAINUDDIN, “Enhancing IoT Security: A Synergy of Machine Learning, Artificial Intelligence, and Blockchain”, Data Science Insights, vol. 2, no. 1, Feb. 2024.
-
-
+1.V. Kumar, A. Banerjee, and V. Chandola, "Anomaly detection: A survey," ACM Computing
+Surveys, vol. 41, July 2009.
+2. C. Zhang, Y. Chen, Time series anomaly detection with variational autoencoders, CoRR,
+abs/1907.01702, 2019.
 
 
